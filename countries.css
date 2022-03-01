@@ -1,0 +1,23 @@
+#countries-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.countries{
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid tomato;
+    border-radius: 20px;
+    background-color: beige;
+}
+h1{
+    text-align: center;
+}
+section{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(240, 221, 221);
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 5px;
+}
